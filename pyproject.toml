@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "citybussin"
-version = "0.0.1a1"
+version = "0.0.1a2"
 description = ""
 authors = ["Eric Park <me@ericswpark.com>"]
 readme = "README.md"
