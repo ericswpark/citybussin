@@ -61,6 +61,12 @@ class Citybussin:
                 return route
         return None
 
+    def get_direction_by_destination(self, route_key, destination):
+        for direction in self.get_route_directions(route_key):
+            if direction["destination"] == destination:
+                return direction
+        return None
+
     def get_route_directions(self, route_key):
         for route in self.get_bus_routes():
             if route["key"] == route_key:
