@@ -1,16 +1,18 @@
 # citybussin
 
-WIP, will eat your underfunded bus
-
 CityBus (of West Lafayette)'s API wrapped up in a Python library
 
+## Deprecation Notice
 
-# Usage
+CityBus recently changed their API to require a verification token. While this could probably be extracted and sent along, I don't want to spend more time on it when I know the API provider is resisting 3rd-party access.
+
+
+## Usage
 
 Import library and use
 
 
-## Example
+### Example
 
 ```python
 from citybussin import Citybussin
